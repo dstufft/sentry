@@ -1,0 +1,5 @@
+sentry (6.3.0-1) unstable; urgency=low
+
+  * source package automatically created by stdeb 0.6.0
+
+ -- David Cramer <dcramer@gmail.com>  Mon, 07 Oct 2013 12:07:44 -0700

@@ -1,0 +1,34 @@
+Source: sentry
+Maintainer: David Cramer <dcramer@gmail.com>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), debhelper (>= 7), python-support (>= 0.8.4)
+Standards-Version: 3.8.4
+XS-Python-Version: current
+
+Package: python-sentry
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+XB-Python-Version: ${python:Versions}
+Provides: ${python:Provides}
+Description: A realtime logging and aggregation server.
+ Sentry
+ ======
+ .
+ .. image:: https://secure.travis-ci.org/getsentry/sentry.png?branch=master
+    :target: http://travis-ci.org/getsentry/sentry
+ .
+ .. image:: https://coveralls.io/repos/getsentry/sentry/badge.png?branch=master
+    :target: https://coveralls.io/r/getsentry/sentry?branch=master
+ .
+ .
+ Sentry is a realtime event logging and aggregation platform. It specializes
+ in monitoring errors and extracting all the information needed to do a proper
+ post-mortem without any of the hassle of the standard user feedback loop.
+ .
+ Screenshots
+ -----------
+ .
+ .. image:: https://github.com/getsentry/sentry/raw/master/docs/images/group_list.png
+ .
+ .. image:: https://github.com/getsentry/sentry/raw/master/docs/images/event.png
